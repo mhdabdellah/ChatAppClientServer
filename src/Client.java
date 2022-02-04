@@ -24,7 +24,7 @@ public class Client {
 		String s1 = in.readUTF();
 		System.out.println(s1);
 		//chat
-		// client to server
+		// client to server ecrir et envoyer les messages au serveur
 		PrintWriter pr = new PrintWriter(client.getOutputStream());
 		pr.println("hello my server");
 		pr.flush();
